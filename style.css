@@ -25,6 +25,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -34,4 +35,47 @@ section{
     color:white;
     font-weight: 700;
 
+}
+
+.m-area{
+
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+p{
+    text-align: left;
+}
+.Experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+    padding-right: 20px;
+}
+
+.bottom-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#uniqe{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,red);
+    border-image-slice: 1;
+}
+
+#uniqe2{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 15px;
 }
